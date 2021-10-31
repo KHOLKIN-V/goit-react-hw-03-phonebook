@@ -1,0 +1,39 @@
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.inputTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.form {
+  display: inline-block;
+  flex-direction: column;
+  width: 280px;
+  height: auto;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: rgb(226, 255, 172);
+}
+.addBtn {
+  min-width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  background: rgb(56, 137, 212);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+.addBtn:hover {
+  background: rgb(76, 170, 232);
+}
+.addBtn:active {
+  background: rgb(0, 66, 152);
+}

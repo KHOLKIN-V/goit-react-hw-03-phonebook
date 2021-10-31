@@ -1,0 +1,21 @@
+.btnDeleteContact {
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 3px 6px;
+  background: #eaeef1;
+  display: inline-flex;
+  min-width: 60px;
+  margin: 0;
+  margin-left: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.btnDeleteContact:hover {
+  background: #fff;
+}
+.btnDeleteContact:active {
+  background: #d0d3d6;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
